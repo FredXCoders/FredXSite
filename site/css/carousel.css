@@ -23,7 +23,7 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+#myCarousel .carousel {
   margin-bottom: 60px;
 
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
@@ -37,7 +37,7 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
+#myCarousel .carousel .item {
   height: 500px;
   background-color: #777;
 }
@@ -49,6 +49,34 @@ body {
   margin: 0 auto;
   height: 500px;
   max-width: none;
+}
+
+#mentorCarousel{
+  clear: both;
+}
+
+#mentorCarousel .carousel-inner{
+  margin: 0 2.5%;
+  width: auto;
+}
+
+#mentorCarousel .carousel-control {
+  padding-top:10%;
+  width:2%;
+}
+
+#mentorCarousel .carousel-control {
+  color: #000;
+}
+
+#mentorCarousel .carousel-control.right{
+  background-image: none;
+  background-color: #EEE;
+}
+
+#mentorCarousel .carousel-control.left{
+  background-image: none;
+  background-color: #EEE;
 }
 
 

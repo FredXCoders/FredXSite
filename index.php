@@ -223,197 +223,8 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
 			</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 		</form>
 		</div>
-		<script type="text/javascript">
-		var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[20]='MMERGE20';ftypes[20]='text';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[9]='MMERGE9';ftypes[9]='text';fnames[10]='MMERGE10';ftypes[10]='text';fnames[11]='MMERGE11';ftypes[11]='text';fnames[12]='MMERGE12';ftypes[12]='text';fnames[13]='MMERGE13';ftypes[13]='text';fnames[14]='MMERGE14';ftypes[14]='text';fnames[15]='MMERGE15';ftypes[15]='text';fnames[16]='MMERGE16';ftypes[16]='text';fnames[17]='MMERGE17';ftypes[17]='text';fnames[18]='MMERGE18';ftypes[18]='text';fnames[19]='MMERGE19';ftypes[19]='text';
-		try {
-		    var jqueryLoaded=jQuery;
-		    jqueryLoaded=true;
-		} catch(err) {
-		    var jqueryLoaded=false;
-		}
-		var head= document.getElementsByTagName('head')[0];
-		if (!jqueryLoaded) {
-		    var script = document.createElement('script');
-		    script.type = 'text/javascript';
-		    script.src = '//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
-		    head.appendChild(script);
-		    if (script.readyState && script.onload!==null){
-			script.onreadystatechange= function () {
-			      if (this.readyState == 'complete') mce_preload_check();
-			}    
-		    }
-		}
+		<script type="text/javascript" src="site/js/mailchimp.js"></script>
 
-		var err_style = '';
-		try{
-		    err_style = mc_custom_error_style;
-		} catch(e){
-		    err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
-		}
-		var head= document.getElementsByTagName('head')[0];
-		var style= document.createElement('style');
-		style.type= 'text/css';
-		if (style.styleSheet) {
-		  style.styleSheet.cssText = err_style;
-		} else {
-		  style.appendChild(document.createTextNode(err_style));
-		}
-		head.appendChild(style);
-		setTimeout('mce_preload_check();', 250);
-
-		var mce_preload_checks = 0;
-		function mce_preload_check(){
-		    if (mce_preload_checks>40) return;
-		    mce_preload_checks++;
-		    try {
-			var jqueryLoaded=jQuery;
-		    } catch(err) {
-			setTimeout('mce_preload_check();', 250);
-			return;
-		    }
-		    var script = document.createElement('script');
-		    script.type = 'text/javascript';
-		    script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
-		    head.appendChild(script);
-		    try {
-			var validatorLoaded=jQuery("#fake-form").validate({});
-		    } catch(err) {
-			setTimeout('mce_preload_check();', 250);
-			return;
-		    }
-		    mce_init_form();
-		}
-		function mce_init_form(){
-		    jQuery(document).ready( function($) {
-		      var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
-		      var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
-		      $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
-		      options = { url: 'http://FredxCoders.us7.list-manage.com/subscribe/post-json?u=1d0eb8b62cc199a67a0087816&id=ccadf2881b&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
-				    beforeSubmit: function(){
-					$('#mce_tmp_error_msg').remove();
-					$('.datefield','#mc_embed_signup').each(
-					    function(){
-						var txt = 'filled';
-						var fields = new Array();
-						var i = 0;
-						$(':text', this).each(
-						    function(){
-							fields[i] = this;
-							i++;
-						    });
-						$(':hidden', this).each(
-						    function(){
-							var bday = false;
-							if (fields.length == 2){
-							    bday = true;
-							    fields[2] = {'value':1970};//trick birthdays into having years
-							}
-							if ( fields[0].value=='MM' && fields[1].value=='DD' && (fields[2].value=='YYYY' || (bday && fields[2].value==1970) ) ){
-								this.value = '';
-											    } else if ( fields[0].value=='' && fields[1].value=='' && (fields[2].value=='' || (bday && fields[2].value==1970) ) ){
-								this.value = '';
-											    } else {
-												if (/\[day\]/.test(fields[0].name)){
-								this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
-												} else {
-								this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
-								}
-							    }
-						    });
-					    });
-					$('.phonefield-us','#mc_embed_signup').each(
-					    function(){
-						var fields = new Array();
-						var i = 0;
-						$(':text', this).each(
-						    function(){
-							fields[i] = this;
-							i++;
-						    });
-						$(':hidden', this).each(
-						    function(){
-							if ( fields[0].value.length != 3 || fields[1].value.length!=3 || fields[2].value.length!=4 ){
-								this.value = '';
-											    } else {
-												this.value = 'filled';
-							    }
-						    });
-					    });
-					return mce_validator.form();
-				    }, 
-				    success: mce_success_cb
-				};
-		      $('#mc-embedded-subscribe-form').ajaxForm(options);
-		      
-		      
-		    });
-		}
-		function mce_success_cb(resp){
-		    $('#mce-success-response').hide();
-		    $('#mce-error-response').hide();
-		    if (resp.result=="success"){
-			$('#mce-'+resp.result+'-response').show();
-			$('#mce-'+resp.result+'-response').html(resp.msg);
-			$('#mc-embedded-subscribe-form').each(function(){
-			    this.reset();
-			});
-		    } else {
-			var index = -1;
-			var msg;
-			try {
-			    var parts = resp.msg.split(' - ',2);
-			    if (parts[1]==undefined){
-				msg = resp.msg;
-			    } else {
-				i = parseInt(parts[0]);
-				if (i.toString() == parts[0]){
-				    index = parts[0];
-				    msg = parts[1];
-				} else {
-				    index = -1;
-				    msg = resp.msg;
-				}
-			    }
-			} catch(e){
-			    index = -1;
-			    msg = resp.msg;
-			}
-			try{
-			    if (index== -1){
-				$('#mce-'+resp.result+'-response').show();
-				$('#mce-'+resp.result+'-response').html(msg);            
-			    } else {
-				err_id = 'mce_tmp_error_msg';
-				html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
-				
-				var input_id = '#mc_embed_signup';
-				var f = $(input_id);
-				if (ftypes[index]=='address'){
-				    input_id = '#mce-'+fnames[index]+'-addr1';
-				    f = $(input_id).parent().parent().get(0);
-				} else if (ftypes[index]=='date'){
-				    input_id = '#mce-'+fnames[index]+'-month';
-				    f = $(input_id).parent().parent().get(0);
-				} else {
-				    input_id = '#mce-'+fnames[index];
-				    f = $().parent(input_id).get(0);
-				}
-				if (f){
-				    $(f).append(html);
-				    $(input_id).focus();
-				} else {
-				    $('#mce-'+resp.result+'-response').show();
-				    $('#mce-'+resp.result+'-response').html(msg);
-				}
-			    }
-			} catch(e){
-			    $('#mce-'+resp.result+'-response').show();
-			    $('#mce-'+resp.result+'-response').html(msg);
-			}
-		    }
-		}
-
-		</script>
 		<!--End mc_embed_signup-->	  
 	  </p>
         </div>
@@ -444,13 +255,28 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
       </div>
 
       <!-- /END THE FEATURETTES -->
-	<a name="mentors"></a>
+
+      
+      <!-- ============================================== Mentors ===================================== -->
+      <a name="mentors"></a>
       <hr>
 
-      <div class="container">
-      <!-- Example row of columns -->
-      <div class="row contact">
-	<div class="col-lg-3">
+ 
+
+      
+      
+      
+      
+      
+   
+   <div>
+            <div id="mentorCarousel" class="carousel slide">
+                
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-lg-3">
           <h2>Devon Loffreto</h2>
 	<img class="about-img" src="data:image/gif;base64,R0lGODlhYABgAPcAAA0NDQcICRAODxISDwwOERIOEQ4SFRQUFBkYFhMWGRUZHRsbGxoWFSMdGyofGyMaFzMcHB8gHyMiHiwiHjIjHhYcIRoeIisfIBwhJR0kKhUgJhwnMiMjIiwlIikpJyImKyQpLissLCYoIjMlIzkmIzQqJjsrJjUsKTwtKjknKS4yLT0xKzUwKyUsMyguNCItOisxNSwzOycyOzM5PTc2NzovNUIsJ0MuKkouLEUlI0MyLEsxLUgxJlI0LkM0MUw0MUo8O0k7N1M1MVU7NFk7NlQvMGA/NltDPFdDOkhAP2NFOmZHOy05Qyk2RjM8RDQ+STpFTDpCRz1JUjxGUEdISVdLSkROVUVSWUxWWlZWVFdYVVlZVltbWlZYWVRRTWZKRWZRTWdaVHReVXRWSV5hXltdYWBfZFxjZV9pcGJkZGVma2ttbGloaG9xbmxucmVrc25ycmpzeXJ0dXR1enR6fXl7enRsb3NhXIR5d3yAfmdugmxyhW51iW55iHF1gnZ+gnF2i3N6jnl9gnV9knh/k3eChHqDhXaFiXyGiX6Ji3qJiXaClXqCln2MlHaCmHyFmn6JnXeIkn+Rmn6KoX2HoIKEhIKGiYKLjYqMjIqFiYySjZWWjoOPkomOkoGGnIGKnYiMnIWRk4ySlISTm4qVnYyZnoWYnZGVlZKWmpSanZqdnpSblpKNlpygm4ONo4mPpYWPqIiPqIaRpYmUpIyaooaSqYuVq46ZroeaoJKdpJqeopCWrJKbrZGVo46ZsYuWsJSdspmfs5GWsJWgppyipZWiqpulrJ6orpahtZujtJ6psZykup6pvpahuKGlpqGmqqSqramtrqGpp6Cms6OstKmus6CnvKOrvKmuuaawtqyytaaxuay0u6+4vrG1trG2u7S6vbm9vKiwraSfoLjAv56owKSswqmvxKy0w6+5wa20ybS8w7m+xLC2zbS7y
 7m/yrC1xbW80bm/07fAxrvBxr3DyrnCyrzD07fA0cHGzMPJzcXJysLH0cXK0cjN08rS0SH5BAAAAAAAIf8LSUNDUkdCRzEwMTL/AAAFSGFwcGwCIAAAc2NuclJHQiBYWVogB9MABwABAAAAAAAAYWNzcEFQUEwAAAAAYXBwbAAAAAAAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALclhZWgAAAQgAAAAUZ1hZWgAAARwAAAAUYlhZWgAAATAAAAAUd3RwdAAAAUQAAAAUY2hhZAAAAVgAAAAsclRSQwAAAYQAAAAOZ1RSQwAAAYQAAAAOYlRSQwAAAYQAAAAOZGVzYwAABNgAAABuY3BydAAABJQAAABBZHNj/20AAAGUAAAC/lhZWiAAAAAAAAB0SwAAPh0AAAPLWFlaIAAAAAAAAFpzAACspgAAFyZYWVogAAAAAAAAKBgAABVXAAC4M1hZWiAAAAAAAADzUgABAAAAARbPc2YzMgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGxjdXJ2AAAAAAAAAAECMwAAbWx1YwAAAAAAAAAPAAAADGVuVVMAAAAkAAACnmVzRVMAAAAsAAABTGRhREsAAAA0AAAB2mRlREUAAAAsAAABmGZpRkkAAAAoAAAAxGZyRlUAAAA8AAACwml0SVQAAAAsAAACcm5sTkwAAP8AJAAAAg5ub05PAAAAIAAAAXhwdEJSAAAAKAAAAkpzdlNFAAAAKgAAAOxqYUpQAAAAHAAAARZrb0tSAAAAGAAAAjJ6aFRXAAAAGgAAATJ6aENOAAAAFgAAAcQASwBhAG0AZQByAGEAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAFIARwBCAC0AcAByAG8AZgBpAGwAIABmAPYAcgAgAEsAYQBtAGUAcgBhMKsw4TDpACAAU
@@ -481,8 +307,8 @@ YAxdCaUJtOMc6FPIGNjDqIWiAbA68cKUvAzEIV8HzF5f1xVhZaQv8wYYSsLCFTGk3u7j96lf6mx16YtE
 yFaplQAAAQdJREFUeNpi2LrZTmzK9rlKJp1aSyqt2lUZmsssJ/NPWuk+O2xNrW2ceipD4fwMdmPvthLXqVxN3RNjGhis5dkXLtjCk68hUaOWyMEqxaBvWl6/Z8+eHXv2uFXN4GBdweBfoL10D1vvKpc98duUEzYYMQTX+c3aU+1rz7s3trR17foihr6ZnllAHTtA2nSiegIZDFUiMvdYTGAT8Zq3x4yZgZEhJNc8cu/GxkUCHj57ZUACOU6KwnvWKYiLdk3fowcSCEqTTgcZADLDpoOFkWFaikF2XgATEAg6yOnKbmJo0eR23sWyCwz4lkU7MoRWMOyGgcUMnMsZkosl5+yEAKGk1eH9AAEGABnUahUMk78LAAAAAElFTkSuQmCC"/></a>
 	</p>
 	</div>
-        <div class="col-lg-3">
-          <h2>Elliott Sperlazza</h2>
+	<div class="col-lg-3">
+                            <h2>Elliott Sperlazza</h2>
 	<img class="about-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAg0ICgsKDQ0KCgsICgoNDggKCAgKCAoICgoICggKCwgICggKCAgKCgoICAoICAoICgoKCggNDQoIDQgICggBAwQEBgUGCgYGCg8ODA0PDA8PEA8NDA0NDAwMDgwMDQ0PDA0NDQ0MDAwMDA0NDQ0NDQ0MDQwMDQwMDAwMDAwMDP/AABEIAGAAYAMBEQACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAFBwQGCAkDAgH/xAA+EAACAQEGAggEAggGAwAAAAABAgMRAAQFEiExBkEHCBMiUWFxgTKRobFCUhQjM2JywdHwJXOCsrPxCRUk/8QAHAEAAQUBAQEAAAAAAAAAAAAABAECAwUGAAcI/8QAMhEAAQQBAwICCAUFAAAAAAAAAQACAxEEEiExBUETUSJhcYGRobHRFCMyUuEGM0Jywf/aAAwDAQACEQMRAD8ASsN100Ff5WxpctcGojdbuoFSK+vjZpTwNlNv+KRXWMzSlY0XUs30AGpZjsFUEnkLc1rnmmpXENFlIXizrPSZ2W7qkcde7I8eaYig72UtkSp2Uq+lKmu1tHgD/NVcmb+1V9OsFe2p+sXQU/Yxa+Z7vxH90qPIWecNg7JBluPdXjgrrInMqXhI8hIBniDBlrzaMlw48ShUgbK21hJcLa2FEsyv3LQUIVlV0KurqCrrQqVOxBG4tUbg0VZKM9wDjUa2S6TaQG98JljSll1JdKuHCfAOUVPLytC+RODUN424mju7ZTv+UCwzI3ybhSOc1uxUHDb6sy5lNR9jZHNLNiuBDtwoFzu9W308Ba4JQYRDsgWGn00sm6csj9MPSW1/vDCv6mBmWOPlQHK0hHN3pWv4Voo/Fm0ePAI2DzPKoMicyO9QVFusOY6Ctfv6c/
 atiXGkM0ajsEbiwFwK0IH8LAfUWGMo80a2J3kv17oV3GnzFkDrS6S0Jx9X3pR/RpBdpDWGZqAsdIpTtQ8kc91htmo2nerW5kBI1Dn6o3HmH6StawXEHlahJVqAiuG4MG5WaSnIvil37JKcz9rByv3oJ7AspcaS9peJDvQ0tcwimAIF/pOKL8BYmkKvmYKSdj7WHyGucRSliIA3Vjwy5ED1sUVGAiF9uRWJ2H4Uc7cwpItwNkBKdgVgG7XbMxB2WpJ8q7+9taTQWVAtxUe94wdlqq+WjMP3iP8AaNB5mpMjY+53Ka6Q8N2H1Ua6X50NVZ1PirMD9DZzmtOxCja9zTYJVwwLjMOQkoAY6CdVoCeQkRRQ/wCagB/MH3UCTGr0mfD7fZWcOVqOl/x+6J4zhhQ0AykNQnu6EioBAroa1rseRsNG8HlGyxEcCluXq38WHErnHnK9vFWOQA94lNEky7gSJlYn82bwtnsuIRyHTweFZQPLm+lyn7hvDojXMeVq2R+kKcbqqY7FnJ866e2g97BNdbt1PwFkXiTEXu8kvaQlO+QqZSSwr3SGGmvgdudtayNjgNJVI6VzSdQpWy6TpBd1ZkHaOKhCAWBOw9BaucwukoHYI0OAZZG6vtyuNeVpk0KXjWHf/NPypBL/AMb25n6x7Urtmlc4A1YXYbnLXyGunp522HDwFlbthKh3G71Hj97PcaKbG2wj2BcGPMRlUkeXp52ElyWsG5VrjdOklIobJjcJ9X28SuvwquYas1GpzNAKkeWlqifqjA0jutFjdAlLw4kVYTo6xXRPWD9JiWrxRgOig1eNaZjp8RVatprQaV0tSdNyqk8Nx2J+a0fWcHVCZGD0mj4hev8A45+ITJiMt1YZlngLhtNGiIo3+pWyMeZyWuOpR0A5YXEkLrBW9uLYwoyDYWx8rtRVswJd4hdLRqZLDpBnCCrUouuoB+9jItRNBRuoBKzALkb1L2rbVoq+A8bWr3eEykG303ak+sL4e8rPtKpXEvD7C7TZBV+xly
 ilatkamnPXlZGkagldwuTMcJUEajYEbfMc7ba73WQ06SQrLBIi0qQKUsA4OddK6jMTK1JicK9IEKECvy0/vnaomxJCLIWoxepY4oApnYn0pPc4leKIyGUd1zpHWnjuToSAKHTzFquLEbK8h7qpaDJznwxaomar+CLdF16vt/aKecuY5O8IlOTs8pIGdGAJB1oBoy1NSDr2cyCAaY9z5oTpkmVk/mzWBfHCc/U86J1uGK4tfSAkcMYSFaALlnyTTkfwMiIo0FCfy2inzvEgjZ3rf6BVOX0848z5APRJ2+FlXDHOsYjXkxBSVzZc/KtafKwX4U6dSC8UA0rzeUDLm5EVsHW6lWeOOIzf7x2a/soz3mGzEcrXEQETNR5QzjrOkcIvhWDLEdOQoLAvkLjZRLW0nrcMKHha4Qlo7c7kNqWautcvOtj0JNhmKGNFPY3hleIgHWKRqFa7FonzRGmuUQsdXrbR4U4MZBVXmY5JbI0dwD7UscUwCrMCNtKU1BHn4i0kc9BPkxNa8rvg4UjkB/L+97K6axSkZi6CCtj9HNziveHQiRQyoMpG1CutajmK2w85dFMSOSvWcJjJsdt+SYHAqQouWMjKPw+e29TWwU1ndyMbG0cKv9LHSfLhsPZRqf8AEZchlOgoi10YE665aGmoPvYdPxhKSXdvmsV/UOW1uiMHezfqBVY6JuE5MQk7oymFgTXVajzsbklsexWYi/M3T3414dvssYjVljAABKjWnO1bEY7sol+o8KFgPAxu8YTnzY7k89bNml1lPYwNC8cUw3swSbRNbqKltPCNacrXNoAItcbtXWlkSpddZboH/wDeXHImRb3dmD3eVyQA1VMkZcAlVkCjvUOV1jandtNFJodZ4TwdqXPnpx4EkuF6KTKqTZU7QISYzKyK7FGIXMjBgQ1AK5hSqm1hCQ4UOFxdRtKu/
@@ -496,7 +322,7 @@ Dj9xR46z+5gPxCt64/NeVjikZRFEQywRx5VLr8JZmLs1KnmLRR4kcTtbeT3Kh6h/UMuRF4IADVZ4dva0
 	
 	</p>
        </div>
-        <div class="col-lg-3">
+                            <div class="col-lg-3">
           <h2>Brandon Feldkamp</h2>
 		  <img height="96px" width="100px" class="about-img" alt="Brandon Feldkamp" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8KCwkMEQ8SEhEPERATFhwXExQaFRARGCEYGhwdHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCADIAMgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDhulKKYODTWY+ZgEgYzWJBMKWoPMX/AGvfnFL5i+5/GgCf8qKgLj+7/wCPUocf3P1NAE1HGeoqLI/55/pS7v8AY/
 Tik9AHllz1FNLr6is7UtXtbIESEM4/hArm77xFdXOVhIjU+lYzrxievhMmr4hXeiOye4hXhpUH40z7Za5x9oj/ADrz17mWR8tIxP1qzbO2RXNLFyXQ96hwxSmrSmzvEljf7jhvpSyHaPmH41keH2BkANdSYI5IsMvB9KweZcsrSR6/+oDrUeehU17MzO2aYwNX5LI4/dtVSaKWP7ysB64rvp4mFT4WfHZhw/jsv/jU3bv0ICKjkBqVqjfpXQnc8ZruQNUMlTsKhkHGaYJWIjSU49aTFCGxpFIRxTjSGnYkswDIFFFueAKKYjRpoGZj/u06mqf3x/3ahASSrxuzjA5xUSygnh5P0qW4LCJvYZqMgqF3Ky5GRkdRTAdvU8Ay/nSZH92T86cqlumf1qQW8p6KanUVyLcv9xvxauW1/XvnaCzO0Dhmz1ra8UyvYaWzN8ryfKvr715+S7kk55rjxFV35T6rIsvjKPt5K/YJZJJXyzFialjj2xlyOBT7W2LHJ6UXsq7vKQ8Dr71xc13ZH1safKrsZETu59av25wRVCLtV6LtSlsdWHVtTc0hzHOjZ4zXcW7BkDA4zXntm2CCe3Sus0S7Bj8tyR6GuGtC7uj6/KasVFwNkgZNBUN8rgMp6g1HupWPArBTcXdHsVaEKsHCorplDULLyf3qfNGf0rPeukhxKTE+NrjBrnruMxTPEwwVJFfQYDE+1jZ7o/D+MsghlmIVSkvcl+DKz1E9SuaiY9a9C58WRMKTHpTm5FNpgxCOaQ07tTT0pklmDoKKieZbeHzGBIHXFFMmxq+tNT/Wt/u/1paEH7xj7D+dZ3GTyfcNbGqqscVgDJCM2wOGXkcnrWPL90+9b/iUKg0sI8IxYpuDDJB3P1/DFaRV4szlKzRnRSYfP2iAcdSnH8qsrO3/AD+wAe0Of6VVif5iBNa/inH8qkadkjY/
@@ -534,25 +360,44 @@ APWooorSwH//2Q==" />
 		</p>
 
         </div>
-
-        <div class="col-lg-3">
+                            <div class="col-lg-3">
           <h2>Melora Loffreto</h2>
           <p>I specialize in making, finding, selling and distributing developmental tools for educating young people. Whether innovating toys for developing our youngest minds, or innovating tech-based programs, I focus on delivering top quality experiences for kids and their families</p>
 	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->
 	  <p><a href="http://www.zhenerbeefarms.com/">Blog</a> | <a href="http://twitter.com/kid_OYO">Twitter</a> | <a href="http://www.linkedin.com/in/meloraloffreto">LinkedIn</a></p>	
         </div>
-	</div> <!-- row -->
-
-	<div class="row">
-	<div class="col-lg-3">
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                    <div class="item">
+                        <div class="row">
+			      <div class="col-lg-3">
+          <h2>Joel Peck</h2>
+          <p>I have a Masters from VCU and a Bachelors from UMW both in Computer Science. I'm a software engineer for the Navy by day and an adjunct professor for UMW's computer science department at night. The Dojo gives me a chance to introduce people to the world of making and I really enjoy seeing the unbridled enthusiasm from our students after each lesson.</p>
+	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->
+	  <p></p>	
+        </div>
+                            	<div class="col-lg-3">
           <h2>Your Name Here</h2>
           <p>We are always looking for new mentors. Whether you want to teach one lession on a specialty subject or want to be a regular contributor, contact us and let us know your interest!</p>
 	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->
           <p>Contact us at: dojo at fredxcoders.com</p>
         </div> 
+                          </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                </div>
+                <!--/carousel-inner--> <a class="left carousel-control" href="#mentorCarousel" data-slide="prev">‹</a>
 
-      </div>
-        <!-- Supporters -->
+                <a class="right carousel-control" href="#mentorCarousel" data-slide="next">›</a>
+            </div>
+            <!--/myCarousel-->
+    </div>
+    
+      
+      <!-- ============================================== Supporters ===================================== -->
       <hr>
       <a name="supportedBy"></a>
       <div class="row">
@@ -587,6 +432,12 @@ APWooorSwH//2Q==" />
 
     </div><!-- /.container -->
 
+    
+    
+ 
+    
+    
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

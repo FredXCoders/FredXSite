@@ -364,7 +364,19 @@ APWooorSwH//2Q==" />
           <h2>Melora Loffreto</h2>
           <p>I specialize in making, finding, selling and distributing developmental tools for educating young people. Whether innovating toys for developing our youngest minds, or innovating tech-based programs, I focus on delivering top quality experiences for kids and their families</p>
 	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->
-	  <p><a href="http://www.zhenerbeefarms.com/">Blog</a> | <a href="http://twitter.com/kid_OYO">Twitter</a> | <a href="http://www.linkedin.com/in/meloraloffreto">LinkedIn</a></p>	
+	  <p>
+	  	<!-- Twitter -->
+	<a href="http://twitter.com/kid_OYO" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @CoderDojoVA</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+	<!-- LinkedIn -->			
+	<a href="http://www.linkedin.com/in/meloraloffreto" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="assets/img/linkedInButton.gif" width="20" height="20" alt="View Devon Lafretto's LinkedIn profile" style="vertical-align:top" border="0"></span></a>	
+	
+	<!-- Blog -->
+	<a href="http://www.zhenerbeefarms.com/" style="text-decoration:none;"><img style="vertical-align:top" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjpQTFRF/lwA+ZVa+5ld/GMD/l0A/4Q1/Ord/rSL/4xA8mIQ/pVS/2gC/M2w+9W7/2QA/rOK+mwh+5pe4Zpw/NrC/Onb/NCz/LuZ/NG1/Mim4Zpy+ax5/WoL+9G1/l8A+3Ic/7aP+9G2/HMc+6x8/4Q0/3ws/Pv4/o9I/X8t/cqq/1wA+59l/a6A+9O5/mUA+9S5+MKi/mgF+J1m+Kp3/qx++6h0/7GF+9K2/Hkm/fr3/ruZ+5ZU98Ol+8Oh/o1E/MGj+55g+5db9Zto/24U/2MA/N7L/5lc/ODO/6Vw+G4n/YM5/Ove/qh2+93K+6Jm/Jda+LmW+ple+ZRa+JFO+KV1+Zlf7sOq/pxe5s2//X8x/NjA/GAA/1oA/4Mz/e7k/4c3/efY/45F/o5E4Jlu+v7//2UB+86w/2oJ+8ml/rqW/drD/dvG+3Qd+ZVX/3Yg+pdd/Mys/6t7+Mar+JVc5ci3/59l+7WF/biY/a+C810M+5dW/Y5H++PS/KRr/5JM/41L/OTV+7B++Goj/pRP+9rI9YtP+6Bi/qRu+8CZ/V8B+6Rt+9S7/o5G/loA+7iL+KFu+/7//Ore/oxB/q+C/reT+7eR/pVT+YpG/fj0/ow//4I3/OLR/6Fn4Zlu+7CD/fz6/rmW/NG4/byZ+m4i/18A+5tf/ejb/2kA8NC9+a17/qp5/LWH35py/5hW/Xch/fTu/mYL/oU1+9C5+ZNZ+9XD/NC2/fr4/Yg7+7SK/f//4Ztw/10A/2AA/v//////
+	yFaplQAAAQdJREFUeNpi2LrZTmzK9rlKJp1aSyqt2lUZmsssJ/NPWuk+O2xNrW2ceipD4fwMdmPvthLXqVxN3RNjGhis5dkXLtjCk68hUaOWyMEqxaBvWl6/Z8+eHXv2uFXN4GBdweBfoL10D1vvKpc98duUEzYYMQTX+c3aU+1rz7s3trR17foihr6ZnllAHTtA2nSiegIZDFUiMvdYTGAT8Zq3x4yZgZEhJNc8cu/GxkUCHj57ZUACOU6KwnvWKYiLdk3fowcSCEqTTgcZADLDpoOFkWFaikF2XgATEAg6yOnKbmJo0eR23sWyCwz4lkU7MoRWMOyGgcUMnMsZkosl5+yEAKGk1eH9AAEGABnUahUMk78LAAAAAElFTkSuQmCC"/></a>
+	  </p>
+	  <!-- <p><a href="http://www.zhenerbeefarms.com/">Blog</a> | <a href="http://twitter.com/kid_OYO">Twitter</a> | <a href="http://www.linkedin.com/in/meloraloffreto">LinkedIn</a></p>	-->
         </div>
                         </div>
                         <!--/row-->

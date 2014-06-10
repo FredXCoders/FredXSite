@@ -23,7 +23,7 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-#myCarousel .carousel {
+#myCarousel.carousel {
   margin-bottom: 60px;
 
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */

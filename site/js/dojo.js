@@ -1,4 +1,4 @@
-function getFeedData(url){
+function getFeedData(url, section){
   jQuery.get(url, function(data) {
       var jQueryxml = jQuery(data);
       var output;
@@ -18,12 +18,12 @@ function getFeedData(url){
 	  console.log("Item: " + output);
 	  return false;
       });
-      return output;
+      jQuery(section).html(output);
   });
 }
 
 jQuery(document).ready(function(){
-  jQuery("#blogSectOne").html(getFeedData("/dojo/?cat=9&feed=rss2")); 
-  jQuery("#blogSectTwo").html(getFeedData("/dojo/?cat=2&feed=rss2")); 
-  jQuery("#blogSectThree").html(getFeedData("/dojo/?cat=10&feed=rss2")); 
+  getFeedData("/dojo/?cat=9&feed=rss2", "#blogSectOne"); 
+  getFeedData("/dojo/?cat=2&feed=rss2", "#blogSectTwo"); 
+  getFeedData("/dojo/?cat=10&feed=rss2", "#blogSectThree"); 
 });

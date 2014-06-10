@@ -1,36 +1,3 @@
-<?php
-
-/**
-*  Prints n items from an RSS feed 
-**/
-function getRssFeed($url, $numPosts){
-    $rss = new DOMDocument();
-    $rss->load($url);
-    $feed = array();
-    foreach ($rss->getElementsByTagName('item') as $node) {
-    $item = array (
-    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-    'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
-    );
-    array_push($feed, $item);
-    }
-    $limit = $numPosts;
-    for($x=0;$x<$limit;$x++) {
-    $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
-    $link = $feed[$x]['link'];
-    $description = $feed[$x]['desc'];
-    $date = date('l F d, Y', strtotime($feed[$x]['date']));
-    echo '<h1>'.$title.'</h1>';
-    echo '<p>Posted on '.$date.' - ';
-    echo $description.'</p>';
-    echo '<p><a class="btn btn-large btn-primary" href="'.$link.'"  title="'.$title.'">'.$title.'</a></p>';
-    }
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -165,7 +132,7 @@ LDI5LjMzM1Y1LjY2NkMyLDUuMjk5LDIuMjk5LDUsMi42NjcsNUg3djJjMCwwLjU1MywwLjQ0OCwxLDEs
           <!-- <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p> -->
-	  <?php getRssFeed("http://www.fredxcoders.com/dojo/?cat=9&feed=rss2", 1) ?>
+	  <span id="blogSectOne"><img src="site/images/ajax-loader.gif" alt="loading..."/></span>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-colheader" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij48ZyBpZD0ibmV3cyI+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjksMEg3QzUuMzQzLDAsNCwxLjM0Miw0LDN2MkgzQzEuMzQzLDUsMCw2LjM0MiwwLDh2MjAgICBjMCwyLjIwOSwxLjc5MSw0LDQsNGgyNGMyLjIwOSwwLDQtMS43OTEsNC00VjNDMzIsMS4zNDIsMzAuNjU2LDAsMjksMHogTTMwLDI4YzAsMS4xMDItMC44OTgsMi0yLDJINGMtMS4xMDMsMC0yLTAuODk4LTItMlY4ICAgYzAtMC41NTIsMC40NDgtMSwxLTFoMXYyMGMwLDAuNTUzLDAuNDQ3LDEsMSwxczEtMC40NDcsMS0xVjNjMC0wLjU1MiwwLjQ0OC0xLDEtMWgyMmMwLjU1MSwwLDEsMC40NDgsMSwxVjI4eiIgZmlsbD0iIzMzMzMzMyIgZmlsbC1ydWxlPSJldmVub2RkIi8+
@@ -176,7 +143,7 @@ MTMsOSwxM3ogTTEwLDZoNXY1aC01VjZ6IiBmaWxsPSIjMzMzMzMzIiBmaWxsLXJ1bGU9ImV2ZW5vZGQi
           <!-- <h2>Heading</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p> -->
-	  <?php getRssFeed("http://www.fredxcoders.com/dojo/?cat=2&feed=rss2", 1) ?>
+	  <span id="blogSectTwo"><img src="site/images/ajax-loader.gif" alt="loading..."/></span>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-colheader" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHg9IjBweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeT0iMHB4Ij48cGF0aCBkPSJNMzEuNTQzLDAuMTZDMzEuMzc3LDAuMDUzLDMxLjE4OCwwLDMxLDBjLTAuMTkzLDAtMC4zODcsMC4wNTUtMC41NTUsMC4xNjhsLTMwLDIwICBjLTAuMzA5LDAuMjA1LTAuNDc5LDAuNTY2LTAuNDM5LDAuOTM2YzAuMDM4LDAuMzY5LDAuMjc4LDAuNjg4LDAuNjIzLDAuODI0bDcuODI0LDMuMTMxbDMuNjc5LDYuNDM4ICBjMC4xNzYsMC4zMDksMC41MDMsMC41LDAuODU3LDAuNTA0YzAuMDA0LDAsMC4wMDcsMCwwLjAxMSwwYzAuMzUxLDAsMC42NzctMC4xODYsMC44NTctMC40ODZsMi4wNzctMy40NjNsOS42OTUsMy44NzcgIEMyNS43NDgsMzEuOTc3LDI1Ljg3MywzMiwyNiwzMmMwLjE3LDAsMC4zMzgtMC4wNDMsMC40OS0wLjEyOWMw
@@ -184,7 +151,7 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
           <!-- <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p> -->
-	  <?php getRssFeed("http://www.fredxcoders.com/dojo/?cat=10&feed=rss2", 1) ?>
+	  <span id="blogSectThree"><img src="site/images/ajax-loader.gif" alt="loading..."/></span>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 

@@ -79,8 +79,8 @@ function getRssFeed($url, $numPosts){
                     <li><a href="curriculum.php">Curriculum</a></li>
                   </ul>
                 </li>
-                <li><a href="#about">&#8226; About</a></li>
                 <li><a href="#contact">&#8226; Contact</a></li>
+                <li><a href="#about">&#8226; About</a></li>
                 <li><a href="#mentors">&#8226; Mentors</a></li>
 		<li><a href="#supportedBy">&#8226; Supported By</a></li>
                 <!-- <li class="dropdown">
@@ -189,19 +189,6 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
       </div><!-- /.row -->
 
       <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-	<a name="about"></a>
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Fredx Coder Dojo <span class="text-muted">About Us</span></h2>
-          <p class="lead">We teach young people how to code in the Fredericksburg, Virginia area. We are a non-profit movement working to influence how technology education interacts with students from 7-17, parents, community partners.. and most importantly.. schools and teachers. Be sure to check out our <a href="curriculum.php">Curriculum</a> for specific lessons.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="/files/about.png" alt="About Us image">
-        </div>
-      </div>
 
       <hr class="featurette-divider">
 
@@ -434,6 +421,7 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
 
 <!--      <hr class="featurette-divider">
 
+	<a name="about"></a>
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
@@ -443,10 +431,21 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
           <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
       </div> -->
-	<a name="mentors"></a>
-      <hr>
+      <hr class="featurette-divider">
+	<a name="about"></a>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fredx Coder Dojo <span class="text-muted">About Us</span></h2>
+          <p class="lead">We teach young people how to code in the Fredericksburg, Virginia area. We are a non-profit movement working to influence how technology education interacts with students from 7-17, parents, community partners.. and most importantly.. schools and teachers. Be sure to check out our <a href="curriculum.php">Curriculum</a> for specific lessons, our <a href="http://www.fredxcoders.com/dojo/">Blog</a> for news and more, or our <a href="https://github.com/FredXCoders">GitHub</a> account for code!</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/files/about.png" alt="About Us image">
+        </div>
+      </div>
 
       <!-- /END THE FEATURETTES -->
+	<a name="mentors"></a>
+      <hr>
 
       <div class="container">
       <!-- Example row of columns -->
@@ -535,15 +534,24 @@ APWooorSwH//2Q==" />
 		</p>
 
         </div>
+
         <div class="col-lg-3">
+          <h2>Melora Loffreto</h2>
+          <p>I specialize in making, finding, selling and distributing developmental tools for educating young people. Whether innovating toys for developing our youngest minds, or innovating tech-based programs, I focus on delivering top quality experiences for kids and their families</p>
+	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->
+	  <p><a href="http://www.zhenerbeefarms.com/">Blog</a> | <a href="http://twitter.com/kid_OYO">Twitter</a> | <a href="http://www.linkedin.com/in/meloraloffreto">LinkedIn</a></p>	
+        </div>
+	</div> <!-- row -->
+
+	<div class="row">
+	<div class="col-lg-3">
           <h2>Your Name Here</h2>
           <p>We are always looking for new mentors. Whether you want to teach one lession on a specialty subject or want to be a regular contributor, contact us and let us know your interest!</p>
-	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->	
+	    <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->
           <p>Contact us at: dojo at fredxcoders.com</p>
-        </div>
+        </div> 
 
       </div>
-
         <!-- Supporters -->
       <hr>
       <a name="supportedBy"></a>

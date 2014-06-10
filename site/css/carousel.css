@@ -194,3 +194,8 @@ Dojo Custom Styles
 .featurette-heading-large{
 	margin-top: 30px;
 }
+
+#mentorCarousel .col-lg-3{
+  padding-left: 10px;
+  padding-right: 10px;
+}

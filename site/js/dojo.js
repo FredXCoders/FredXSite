@@ -14,8 +14,7 @@ function getFeedData(url, section){
 	  output = '<h1>'+item.title+'</h1>'+'<p>Posted on '+item.date+' - '+item.description
 	    +'</p>'+'<p><a class="btn btn-large btn-primary" href="'+item.link+'"  title="'+item.title
 	    +'">'+item.title+'</a></p>';
-	  
-	  console.log("Item: " + output);
+
 	  jQuery(section).html(output);
 	  return false;
       });

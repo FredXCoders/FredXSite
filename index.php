@@ -424,6 +424,7 @@ APWooorSwH//2Q==" />
     <script src="assets/js/jquery.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/holder.js"></script>
+    <script src="site/js/dojo.js"></script>
     <script type="text/javascript">// <![CDATA[
     var $ = jQuery.noConflict(); $(document).ready(function()  { $('#myCarousel').carousel({ interval: 5000, cycle: true }); });
     // ]]></script>

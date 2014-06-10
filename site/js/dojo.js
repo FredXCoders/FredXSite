@@ -16,9 +16,9 @@ function getFeedData(url, section){
 	    +'">'+item.title+'</a></p>';
 	  
 	  console.log("Item: " + output);
+	  jQuery(section).html(output);
 	  return false;
       });
-      jQuery(section).html(output);
   });
 }
 

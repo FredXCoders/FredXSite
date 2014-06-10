@@ -401,9 +401,9 @@ APWooorSwH//2Q==" />
                     </div>
                     <!--/item-->
                 </div>
-                <!--/carousel-inner--> <a class="left carousel-control" href="#mentorCarousel" data-slide="prev">‹</a>
+                <!--/carousel-inner--> <a class="left carousel-control" href="#mentorCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
 
-                <a class="right carousel-control" href="#mentorCarousel" data-slide="next">›</a>
+                <a class="right carousel-control" href="#mentorCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
             </div>
             <!--/myCarousel-->
     </div>

@@ -56,7 +56,6 @@ body {
 }
 
 #mentorCarousel .carousel-inner{
-  margin: 0 2.5%;
   width: auto;
 }
 
@@ -65,18 +64,12 @@ body {
   width:2%;
 }
 
-#mentorCarousel .carousel-control {
-  color: #000;
-}
-
 #mentorCarousel .carousel-control.right{
   background-image: none;
-  background-color: #EEE;
 }
 
 #mentorCarousel .carousel-control.left{
   background-image: none;
-  background-color: #EEE;
 }
 
 
@@ -193,9 +186,4 @@ Dojo Custom Styles
 
 .featurette-heading-large{
 	margin-top: 30px;
-}
-
-#mentorCarousel .col-lg-3{
-  padding-left: 13px;
-  padding-right: 13px;
 }

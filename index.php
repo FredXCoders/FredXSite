@@ -42,26 +42,24 @@
 		<li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="curriculum.php">Curriculum</a></li>
+                    <li><a href="index.php#">Home</a></li>
+		    <li><a href="index.php#contact">&#8226; Contact</a></li>
+		    <li><a href="index.php#about">&#8226; About</a></li>
+		    <li><a href="index.php#mentors">&#8226; Mentors</a></li>
+		    <li><a href="index.php#supportedBy">&#8226; Supported By</a></li>
                   </ul>
                 </li>
-                <li><a href="#contact">&#8226; Contact</a></li>
-                <li><a href="#about">&#8226; About</a></li>
-                <li><a href="#mentors">&#8226; Mentors</a></li>
-		<li><a href="#supportedBy">&#8226; Supported By</a></li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
+		<li>
+		  <a href="curriculum.php">Curriculum</a>
+		  <ul class="dropdown-menu">
+		    <li><a href="curriculum.php#scratch">&#8226; Get Started Coding</a></li>
+		    <li><a href="curriculum.php#minecraft">&#8226; Minecraft/Java</a></li>
+		    <li><a href="curriculum.php#hardware">&#8226; Hardware</a></li>
+		    <li><a href="curriculum.php#web">&#8226; Programming the Web</a></li>
+		    <li><a href="curriculum.php#python">&#8226; Python</a></li>
+		    <li><a href="curriculum.php#github">&#8226; Github</a></li>
+		  </ul>
+		</li>
               </ul>
             </div>
           </div>
@@ -436,7 +434,7 @@ APWooorSwH//2Q==" />
     <script src="assets/js/holder.js"></script>
     <script src="site/js/dojo.js"></script>
     <script type="text/javascript">// <![CDATA[
-    var $ = jQuery.noConflict(); //$(document).ready(function()  { $('#myCarousel').carousel({ interval: 15000, cycle: true }); $('#mentorCarousel').carousel({ interval: 15000, cycle: true });});
+    var $ = jQuery.noConflict(); $(document).ready(function()  { $('#myCarousel').carousel({ interval: 15000, cycle: true }); $('#mentorCarousel').carousel({ interval: 15000, cycle: true });});
     // ]]></script>
   </body>
 </html>

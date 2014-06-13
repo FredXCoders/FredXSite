@@ -35,35 +35,34 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php">Fredx Coder Dojo</a>
+              <a class="navbar-brand" href="#">Fredx Coder Dojo</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curriculum<b class="caret"></b></a>
+		<li class="dropdown">
+                  <a href="index.php#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="#">Curriculum</a></li>
+                    <li><a href="index.php#">Home</a></li>
+		    <li><a href="index.php#contact">&#8226; Contact</a></li>
+		    <li><a href="index.php#about">&#8226; About</a></li>
+		    <li><a href="index.php#mentors">&#8226; Mentors</a></li>
+		    <li><a href="index.php#supportedBy">&#8226; Supported By</a></li>
                   </ul>
                 </li>
-                <li><a href="#scratch">&#8226; Get Started Coding</a></li>
-                <li><a href="#minecraft">&#8226; Minecraft/Java</a></li>
-                <li><a href="#hardware">&#8226; Hardware</a></li>
-                <li><a href="#web">&#8226; Programming the Web</a></li>
-                <li><a href="#python">&#8226; Python</a></li>
-                <li><a href="#github">&#8226; Github</a></li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
+                <li class="dropdown">
+		  <a href="curriculum.php" class="dropdown-toggle" data-toggle="dropdown">Curriculum<b class="caret"></b></a>
+		    <ul class="dropdown-menu">
+		      <li><a href="curriculum.php#">Curriculum</a></li>
+		      <li><a href="curriculum.php#scratch">&#8226; Get Started Coding</a></li>
+		      <li><a href="curriculum.php#minecraft">&#8226; Minecraft/Java</a></li>
+		      <li><a href="curriculum.php#hardware">&#8226; Hardware</a></li>
+		      <li><a href="curriculum.php#web">&#8226; Programming the Web</a></li>
+		      <li><a href="curriculum.php#python">&#8226; Python</a></li>
+		      <li><a href="curriculum.php#github">&#8226; Github</a></li>
+		    </ul>
+		</li>
+		<li><a href="/dojo">&#8226; Blog</a></li>
+		<li><a href="https://github.com/FredXCoders">&#8226; GitHub</a></li>
               </ul>
             </div>
           </div>

@@ -284,11 +284,10 @@ wA+o8PrY1jVHNKNk7OhHjjs0EZQlZWbK7EhAy0LAmtBUfm0tRZ2NZ1Wtl0nPqMM0nfjyTY4VkjSchAyd
 AB3eFh8Wb4ZpR3cuZFzFmZbvCxN/Ef7gs9ndQb/ajPtP/FhC9XIry0I08CPK18CqNrweF8RYYTrQ0G5pt6jcj0s6wuMrRyimHYQR3lIannof6+jUPlZrgHbFQjLdGbbsrMkhNP1aAjl38p9swp7E2E/
 Dj9xR46z+5gPxCt64/NeVjikZRFEQywRx5VLr8JZmLs1KnmLRR4kcTtbeT3Kh6h/UMuRF4IADVZ4dva0yxFrzkG3kRZUoTE6uOP8AYYtDGfhvLiIjke0UhT651X6+NgsyPXEfUtD0ScxZLPJ2xXQqTgY02pbL6V6sCgOJ8OKlbNIpLqWQuuz1lGgBwu7Nld1H6TMpOZUYVW7qRqrOvelOhykKPiel/g42r8x3uWY6jl6fymH2/ZYpu92DCm3na+pZF7iDak3GI6xnkag+XOn3sqge7/IL7nuZTvroV3HJgNx8tbdymB+r0Tx9EYu+FqwDgUzDcaH0JG9POtktDPkcDpPZF7nhy8wD7AfalkQ7nHm0UggC7Clkq1ESTyiscm3nZlKOivrfSyJyJ8FYkLviVymbRY7xA5b91JULfStopf7bvYVZ4G0zP9h9V0M4x62MGU9kM/gRt89rZBz/ACXsoiI5SJ4l6dJ7yTQEA8gDZnKl0hc4sY4he8yyTSZmkmkZ3etSXclm03proOQp4W3rWBoAC8xeSTZPK9sPvFdQa05bMPbezqQUgrlWCNxVfHkeTDmPXysnCB81Kxe7d2o2/rZGqKN29FSeGphlyH2txCSYb2EYjUA0+tmoYr2EluTSp8k9B6Us1JSL4Dh3byiPMFMmzMDlzeBpUioryOtNq1AGZkfhojNpJA5A5pH4OIMuUQ6g0ngni1I6RcDF07Jw3aDKakU+MfENCaV0IB252A6bmSZjZBIwt32vu08duyus/BZgSRuieHeddnNPt79l0d6J+r5cJbld7zGO0S8QpICWzfEoJGvMGoPmLVL8cNJBK9EizfGaC0cgKx3nosu0XwovyH9LR6AEQHEr/9k=">
           <p>Graduate of UMW with a Masters of Science in Elementary Education and a Bachelors of Science in Computer Science, I am a Consultant at Red Hat. The Dojo has given me a venue to use two seemingly unrelated abilities. My goal is to set the spark in our students which will drive ownership of learning and unlock genuine creativity.</p>
-	<p>
+
 	<!-- Place this tag where you want the widget to render. -->
 	<div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/116542873052008545465" data-rel="author"></div>
 	
-	  </p>
        </div>
                             <div class="col-lg-3">
           <h2>Brandon Feldkamp</h2>
@@ -306,7 +305,6 @@ iteqzyepW0a7gsrYW7FiM5z359vT6fpW1HMsi7o2DD2rj79FaUsrAluQOn5U+xvZ7ebBLZ9G4P5/wCNY
 WoITE14quCQWILKeg9au6tYk6LT72EDZKWjkzghulFY0RDIoEmRyVDcY+h7UVDpxYuZnVnGKp3AMStI1wI0HUsowKW9vIrS3aadtigdO59h71w2t61NfSkvlIgfljHb6+9cMY3NS14i1x5i1taTkx4+ZwMEn0rnpDgZP5UwMS2T65pJSeBW6jYljXIxxU0Awu6oVGSF9qscAYyMUxEcuWIXPXmm8cmnH5nP5Uj/dBAwf84pgMHXPpXS2O2a3UHuK5vACkdzit3RJAYB7VnUSLgzRh863JMTEA1r2Ws3EYw5JPriq1soZd3B7VOLZc52VzcqZ0qTL416552kLxVWa/mlOSxJ+tM+zjPApwh6ZFCikHNJ7kLM55qKXOParjRYHFZup3cFoP3jAt2XuarcTdjI1dwZhH6DJqtbrmKUjsBUU0rTyvKwwWIx7VPZsBDKSB0Un/AL6FdNNaWOeUrs3o5t1vCeu6IfplTVe9Y5STgEpjkd14P6VUiuY1togW+5uQgZ75xTzeRvCUbcXzuXj04I/Guhu5C0JOGiU54Q7T/unpVm3IkhaMj58Er9QKz472FAQVYqVK46HnpRFqKQSDCMSpHO7vRoK46S5ZYniBwCwX8uaWwj3M8h/hRnqK4lS4n8xE2BvmK5zVuIEW0xHGSsdIQ1mYYRTg4C8d80U60Gb6LIyPMGfwoqrhYxdW1K5vpi88mQBwo4C/QVntuc9+P5UUVzpWLYijJ9BTGbc2fXmiimxCHJzjjNOCHZnPNFFAEkedgx2/nTply5CjhcKP60UUIBuzcu5evcVb0e4MFwFY/KxwaKKUloNbnaWKBkDDGPatGOLjJoorlZ0RF8vmhkyOoFFFIs57XNbigzBaEPJ0LdlrmC7yymSVizHuTRRXRBJI55SbJFVgAB/EcgU9nAHlAchgD70UVqjMcQdkZPO5mahT8jE5ACdqKKoCPkyYAxyBQwLSNju2aKKCS5dJskIHGAo/SrMEu+0ji77y9FFUgJ7D5ZM5+6jNn8D/
 APWooorSwH//2Q==" />
           <p>Graduate of the Georgia Institute of Technology and Consultant at Red Hat. I love learning new concepts whether it's a new programming language or something completely unrelated like fixing something on my car. My goal with CoderDojo is to offer what I know but also learn something myself.</p>
-		<p>
 			<!-- google+ -->			
 			<div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/107842046095752601875" data-rel="author"></div>&nbsp;
 			
@@ -325,7 +323,6 @@ APWooorSwH//2Q==" />
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 			  })();
 			</script>
-		</p>
 
         </div>
                             <div class="col-lg-3">

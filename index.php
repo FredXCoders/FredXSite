@@ -52,7 +52,7 @@
                 <li class="dropdown">
 		  <a href="curriculum.php" class="dropdown-toggle" data-toggle="dropdown">Curriculum<b class="caret"></b></a>
 		    <ul class="dropdown-menu">
-		      <li><a href="curriculum.php#">&#8226; Curriculum</a></li>
+		      <li><a href="curriculum.php#">Curriculum</a></li>
 		      <li><a href="curriculum.php#scratch">&#8226; Get Started Coding</a></li>
 		      <li><a href="curriculum.php#minecraft">&#8226; Minecraft/Java</a></li>
 		      <li><a href="curriculum.php#hardware">&#8226; Hardware</a></li>
@@ -61,6 +61,8 @@
 		      <li><a href="curriculum.php#github">&#8226; Github</a></li>
 		    </ul>
 		</li>
+		<li><a href="/dojo">&#8226; Blog</a></li>
+		<li><a href="https://github.com/FredXCoders">&#8226; GitHub</a></li>
               </ul>
             </div>
           </div>

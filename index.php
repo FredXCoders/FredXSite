@@ -170,7 +170,6 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
           <p class="lead">Have feedback? Want to mentor? Want to donate? We'd love to hear from you! We have a policy of failing forward (the educational equivalent of iterative development) and our progress is magnified by community participation in multiple facets of the Dojo. </p>
           <!-- <p><a class="btn btn-default" href="#">Contact Us</a></p> -->	
           <p class="lead">Contact us at: dojo at fredxcoders.com</p>
-	  <!-- <p> -->
 		<!-- Begin MailChimp Signup Form -->
 		<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
@@ -194,7 +193,6 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
 		<script type="text/javascript" src="site/js/mailchimp.js"></script>
 
 		<!--End mc_embed_signup-->	  
-	  </p>
         </div>
       </div>
 

@@ -40,7 +40,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
 		<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+                  <a href="index.php#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="index.php#">Home</a></li>
 		    <li><a href="index.php#contact">&#8226; Contact</a></li>
@@ -50,8 +50,9 @@
                   </ul>
                 </li>
                 <li class="dropdown">
-		  <a href="curriculum.php" class="dropdown-toggle" data-toggle="dropdown">Curriculum</a>
+		  <a href="curriculum.php" class="dropdown-toggle" data-toggle="dropdown">Curriculum<b class="caret"></b></a>
 		    <ul class="dropdown-menu">
+		      <li><a href="curriculum.php#">&#8226; Curriculum</a></li>
 		      <li><a href="curriculum.php#scratch">&#8226; Get Started Coding</a></li>
 		      <li><a href="curriculum.php#minecraft">&#8226; Minecraft/Java</a></li>
 		      <li><a href="curriculum.php#hardware">&#8226; Hardware</a></li>

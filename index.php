@@ -436,7 +436,7 @@ APWooorSwH//2Q==" />
     <script src="assets/js/holder.js"></script>
     <script src="site/js/dojo.js"></script>
     <script type="text/javascript">// <![CDATA[
-    var $ = jQuery.noConflict(); $(document).ready(function()  { $('#myCarousel').carousel({ interval: 15000, cycle: true }); $('#mentorCarousel').carousel({ interval: 15000, cycle: true });});
+    var $ = jQuery.noConflict(); //$(document).ready(function()  { $('#myCarousel').carousel({ interval: 15000, cycle: true }); $('#mentorCarousel').carousel({ interval: 15000, cycle: true });});
     // ]]></script>
   </body>
 </html>

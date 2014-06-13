@@ -72,6 +72,9 @@ body {
   background-image: none;
 }
 
+#mentorCarousel .carousel-control{
+  color: #BBB
+}
 
 
 /* MARKETING CONTENT

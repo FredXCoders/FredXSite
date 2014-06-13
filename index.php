@@ -49,16 +49,16 @@
 		    <li><a href="index.php#supportedBy">&#8226; Supported By</a></li>
                   </ul>
                 </li>
-		<li>
-		  <a href="curriculum.php">Curriculum</a>
-		  <ul class="dropdown-menu">
-		    <li><a href="curriculum.php#scratch">&#8226; Get Started Coding</a></li>
-		    <li><a href="curriculum.php#minecraft">&#8226; Minecraft/Java</a></li>
-		    <li><a href="curriculum.php#hardware">&#8226; Hardware</a></li>
-		    <li><a href="curriculum.php#web">&#8226; Programming the Web</a></li>
-		    <li><a href="curriculum.php#python">&#8226; Python</a></li>
-		    <li><a href="curriculum.php#github">&#8226; Github</a></li>
-		  </ul>
+                <li class="dropdown">
+		  <a href="curriculum.php" class="dropdown-toggle" data-toggle="dropdown">Curriculum</a>
+		    <ul class="dropdown-menu">
+		      <li><a href="curriculum.php#scratch">&#8226; Get Started Coding</a></li>
+		      <li><a href="curriculum.php#minecraft">&#8226; Minecraft/Java</a></li>
+		      <li><a href="curriculum.php#hardware">&#8226; Hardware</a></li>
+		      <li><a href="curriculum.php#web">&#8226; Programming the Web</a></li>
+		      <li><a href="curriculum.php#python">&#8226; Python</a></li>
+		      <li><a href="curriculum.php#github">&#8226; Github</a></li>
+		    </ul>
 		</li>
               </ul>
             </div>

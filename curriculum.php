@@ -61,6 +61,7 @@
 		      <li><a href="curriculum.php#github">&#8226; Github</a></li>
 		    </ul>
 		</li>
+		<li><a href="gallery.php">&#8226; Gallery</a></li>
 		<li><a href="/dojo">&#8226; Blog</a></li>
 		<li><a href="https://github.com/FredXCoders">&#8226; GitHub</a></li>
               </ul>
@@ -226,8 +227,5 @@
     <script src="assets/js/jquery.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/holder.js"></script>
-    <script type="text/javascript">// <![CDATA[
-    var $ = jQuery.noConflict(); $(document).ready(function()  { $('#myCarousel').carousel({ interval: 3000, cycle: true }); });
-    // ]]></script>
   </body>
 </html>

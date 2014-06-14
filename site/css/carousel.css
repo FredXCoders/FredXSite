@@ -42,7 +42,7 @@ body {
   background-color: #777;
 }
 
-.carousel-inner {
+#myCarousel .carousel-inner {
   background-color: #5A5A5A; 
 }
 

@@ -41,6 +41,11 @@ body {
   height: 500px;
   background-color: #777;
 }
+
+.carousel-inner {
+  background-color: #5A5A5A; 
+}
+
 .carousel-inner > .item > img {
   /*position: absolute;
   top: 0;
@@ -49,7 +54,6 @@ body {
   margin: 0 auto;
   height: 500px;
   max-width: none;
-  background-color: #5A5A5A;
 }
 
 #mentorCarousel{

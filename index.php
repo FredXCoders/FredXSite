@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.php#">Fredx Coder Dojo</a>
+              <a class="navbar-brand" href="index.php#">FredxCoders</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -212,7 +212,7 @@ LjI2NC0wLjE0OCwwLjQ0NS0wLjQwOCwwLjQ5Ni0wLjcwN2w1LTMwICBDMzIuMDUxLDAuNzcxLDMxLjg3
 	<a name="about"></a>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Fredx Coder Dojo <span class="text-muted">About Us</span></h2>
+          <h2 class="featurette-heading">FredxCoders<span class="text-muted">About Us</span></h2>
           <p class="lead">We teach young people how to code in the Fredericksburg, Virginia area. We are a non-profit movement working to influence how technology education interacts with students from 7-17, parents, community partners.. and most importantly.. schools and teachers. Be sure to check out our <a href="curriculum.php">Curriculum</a> for specific lessons, our <a href="http://www.fredxcoders.com/dojo/">Blog</a> for news and more, or our <a href="https://github.com/FredXCoders">GitHub</a> account for code!</p>
         </div>
         <div class="col-md-5">

@@ -49,6 +49,7 @@ body {
   margin: 0 auto;
   height: 500px;
   max-width: none;
+  background-color: #5A5A5A;
 }
 
 #mentorCarousel{

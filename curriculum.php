@@ -160,6 +160,8 @@
             <li>Lesson One: Hardware Intro -  
                 <a href="https://github.com/FredXCoders/HelloDojo/blob/master/lessons/Hardware%20Intro.odp?raw=true">Presentation</a> - 
                 <a href="http://secure.newegg.com/WishList/PublicWishDetail.aspx?WishListNumber=28949867">Parts List</a></li>
+            <li>Lesson Two: Linux Intro -
+                <a href="lessons/linux%20intro.odp?raw=true">Presentation</a>
           </ul>
       </p>
       </div>

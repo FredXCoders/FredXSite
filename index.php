@@ -63,7 +63,7 @@
 		</li>
 		<li><a href="/dojo">&#8226; Blog</a></li>
 		<li><a href="https://github.com/FredXCoders">&#8226; GitHub</a></li>
-		<li><a href="http://fredxcoders.oyoclass.com">&#8226; OyoClass Platform</a></li>
+		<li><a href="http://fredxcoders.oyoclass.com">&#8226; FredXCoders Platform</a></li>
               </ul>
             </div>
           </div>
